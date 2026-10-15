@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "omnifocus-operator": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["omnifocus-operator"]
+    },
+    "apple-pim": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/Users/shane/.claude/plugins/marketplaces/apple-pim/mcp-server/dist/server.js"]
+    }
+  }
+}
